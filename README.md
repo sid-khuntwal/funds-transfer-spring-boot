@@ -49,7 +49,7 @@ Sender and Receiver has ManyToOne realtionship.
 
 `/transactions` - 
 
-```JS
+```
 /transfer (POST) - Transfer money.
 /all (GET) - Get all transactions.
 /user?userId (Get) - Get transactions with userId.
