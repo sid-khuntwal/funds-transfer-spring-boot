@@ -39,18 +39,19 @@ Sender and Receiver has ManyToOne realtionship.
 
 `/user` - 
 
-```
+```REST
 /all (GET) - Get all users.
-`/add` (POST) - Add new users.
-`/{userId}` (GET) - Get user by userId.
-`/update/{userId}` (PUT) - Update user.
-`/delete/{userId}` (DELETE) - Delete user.
+/add (POST) - Add new users.
+/{userId} (GET) - Get user by userId.
+/update/{userId} (PUT) - Update user.
+/delete/{userId} (DELETE) - Delete user.
 ```
 
 `/transactions` - 
-```
-`/transfer` (POST) - Transfer money.
-`/all` (GET) - Get all transactions.
-`/user?userId` (Get) - Get transactions with userId.
+
+```JSON
+/transfer (POST) - Transfer money.
+/all (GET) - Get all transactions.
+/user?userId (Get) - Get transactions with userId.
 ```
 
