@@ -40,7 +40,7 @@ Sender and Receiver has ManyToOne realtionship.
 `/user` - 
 
 ```
-`/all` (GET) - Get all users.
+/all (GET) - Get all users.
 `/add` (POST) - Add new users.
 `/{userId}` (GET) - Get user by userId.
 `/update/{userId}` (PUT) - Update user.
