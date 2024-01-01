@@ -39,7 +39,7 @@ Sender and Receiver has ManyToOne realtionship.
 
 `/user` - 
 
-```REST
+```
 /all (GET) - Get all users.
 /add (POST) - Add new users.
 /{userId} (GET) - Get user by userId.
@@ -49,7 +49,7 @@ Sender and Receiver has ManyToOne realtionship.
 
 `/transactions` - 
 
-```JSON
+```JS
 /transfer (POST) - Transfer money.
 /all (GET) - Get all transactions.
 /user?userId (Get) - Get transactions with userId.
